@@ -1,0 +1,13 @@
+{
+  "name": "test-slidev",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.43.4",
+    "@slidev/theme-apple-basic": "^0.20.0"
+  }
+}
