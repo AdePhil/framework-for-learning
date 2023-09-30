@@ -7,21 +7,36 @@ drawings:
   persist: false
 title: A framework for learning a new programming language
 mdc: true
-layout: image
-image: /img/pattern2.jpeg
+layout: full
 author: Ahmed Adebisi
 keywords: python, java, go, c
-colorSchema: "light"
+colorSchema: "dark"
 transition: slide-left
 fonts:
   sans: IBM Plex Sans
 ---
 
-# A framework for learning a new programming language
+<!-- # A framework for learning programming languages -->
+<div class="flex items-center">
+<div class="w-[55%] mt-[60px]">
+ <h1 class="text-[45px]! leading-[3.5rem]!">A framework for learning <br/>  programming languages</h1>
+</div>
 
-<div class="absolute bottom-10">
+<div class="flex gap-2 flex-wrap  justify-items-center flex-auto w-[45%] mt-[100px]">
+  <img class="w-[80px] h-[80px] object-contain mt-[-20px]" src="/img/c.svg"  />
+   <img class=" w-[80px] h-[80px] object-contain ml-[40px]" src="/img/go.svg" />
+   <img class=" w-[80px] h-[80px] object-contain mt-[-85px]" src="/img/java.svg" />
+   <img class=" w-[60px] h-[60px] object-contain ml-[-40px]" src="/img/kotlin.svg" />
+   <img class=" w-[80px] h-[80px] object-contain  mt-[40px]" src="/img/ruby.svg" />
+   <img class=" w-[60px] h-[60px] object-contain ml-[40px]" src="/img/python.svg" />
+   <img class=" w-[80px] h-[80px] object-contain mt-[100px]" src="/img/javascript.svg" />
+   <img class=" w-[80px] h-[80px] object-contain" src="/img/typescript.svg" />
+</div>
+</div>
+
+<div class="absolute bottom-5">
   <span class="font-400 text-neutral-500">
-    <span class="text-[#ffc600] font-600">By Ahmed Adebisi</span>
+    <span class="font-600 text-green-600">By Ahmed Adebisi</span>
   </span>
   <div class="italic text-xs">1st October 2023</div>
 </div>
@@ -337,6 +352,13 @@ let message = match x {
 - [programiz](https://www.programiz.com/)
 - [How To Learn A New Programming Language](https://www.youtube.com/watch?v=E8cM12jRH7k&ab_channel=ThePrimeagen)
 - [App ideas](https://github.com/florinpop17/app-ideas)
+
+---
+
+<h1 class="text-[45px]! leading-[3.5rem]! text-center ">Questions?</h1>
+<div class="flex items-center justify-center h-[60%] pt-[40px]">
+   <img src="/img/questions.gif"  style="width: 500px;" />
+</div>
 
 <div>
 </div>
