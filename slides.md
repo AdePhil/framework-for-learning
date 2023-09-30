@@ -43,7 +43,7 @@ Ahmed Adebisi, Software Engineer
 
 - Previously at a fintech in Lagos called [Nomba](https://nomba.com), now i work at a startup called [Qatalog](https://qatalog.com) in London
 - My website [adebisiahmed.dev](https://adebisiahmed.dev)
-- Often build hobby projects in web animations, Algorithms, and (more recently) AI
+- Often build hobby projects in web & mobile animations, Algorithms, and (more recently) Golang.
 - Love playing and watching Football (Soccer) 🔵 🔴
 </v-clicks>
 
@@ -71,7 +71,7 @@ Ahmed Adebisi, Software Engineer
 # Start with the basics
 
 <ul>
-<li>Every languages have their commonalities of course with slight variations in syntax</li>
+<li>Every language has its commonalities, of course, with slight variations in syntax</li>
 <v-click><li>DataTypes supported in the language</li>
 ```go
 integers, booleans, strings, floats, doubles, longs
@@ -168,7 +168,7 @@ PriorityQueue<Integer> integerQueue = new PriorityQueue<>();
 
 <v-clicks>
 
-- This is an aggregation of simple data types that characterizes an entity.
+- This is an aggregation of simple data types that characterizes an entity
 
 - This is usually expressed in classes / structs
 
@@ -197,7 +197,7 @@ class User:
 
 ---
 
-# Copy by Value vs Reference
+# Copy by Value vs Copy by Reference
 
 <v-clicks>
 
@@ -262,6 +262,7 @@ console.log(admin, user);
 <v-clicks>
 
 - Golang - go routines
+
 - Python - Comprehensions
 
 ```python
@@ -269,14 +270,37 @@ squares = [i * i for i in range(11)]
 ```
 
 ```python
-square_dict = {num: num*num for num in range(1, 11)}
-```
-
-```python
-squares = [i * i for i in range(10)]
+squares = []
+for i in range(11):
+  squares.append(i * 1)
 ```
 
 - Rust - Pattern Matching
+
+```rust
+let x = 1;
+let message = match x {
+    0 | 1 => "not many",  // check if matches either to 0 or 1
+    2..=9 => "a few",     // check if its in a range of `[2, 9]`
+    10..15 => "too many", // check if its in a range of `[10, 15)`
+    _ => "lots of many", // else clause, if neither of the cases matches then "lots of
+};
+```
+
+</v-clicks>
+
+---
+
+# More General/Advanced Concepts
+
+<v-clicks>
+
+- Read data from StdIn and Write to StdOut
+- Reading and writing files (.txt, .json)
+- Generics
+- Making Http requests
+- String Parsing
+- Error Handling
 
 </v-clicks>
 
@@ -286,19 +310,19 @@ squares = [i * i for i in range(10)]
 
 <v-clicks>
 
-- Pace yourself and work on exercises along the way to reinforce your learning.
+- Pace yourself and work on exercises along the way to reinforce your learning
 
-- Keep the docs on your phone, redirect some social media time into reading the docs. Knowing what’s possible or not in the language can help you write better code.
+- Keep the docs on your phone, redirect some social media time into reading the docs. Knowing what’s possible or not in the language can help you write better code
 
-- Practice problem solving in the language. Advent of code, Leetcode to mention a few.
+- Practice problem solving in the language. Advent of code, Leetcode to mention a few
 
-- Looking up other people's solution to the same problems.
+- Looking up other people's solution to the same problems
 
-- Stay up to date on updates in the language. Check Github issues to see proposals, check blogs/videos for update in the language.
+- Stay up to date on updates in the language. Check Github issues to see proposals, check blogs/videos for update in the language
 
-- Don’t be satisfied with the first solution that works? Ask yourself how to improve the solutions you come up with or use google.
+- Don’t be satisfied with the first solution that works? Ask yourself how to improve the solutions you come up with or use google
 
-- Try project based learning the expose your knowledge gaps and are an easy way to level up your skills.
+- Try project based learning, they expose your knowledge gaps and are an easy way to level up your skills
 
 - Build projects that are personal to you
 
@@ -310,7 +334,7 @@ squares = [i * i for i in range(10)]
 
 # Resources
 
-- [https://www.programiz.com/](https://www.programiz.com/)
+- [programiz](https://www.programiz.com/)
 - [How To Learn A New Programming Language](https://www.youtube.com/watch?v=E8cM12jRH7k&ab_channel=ThePrimeagen)
 - [App ideas](https://github.com/florinpop17/app-ideas)
 
