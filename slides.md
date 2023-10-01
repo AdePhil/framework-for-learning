@@ -188,6 +188,7 @@ PriorityQueue<Integer> integerQueue = new PriorityQueue<>();
 - This is usually expressed in classes / structs
 
 ```go
+// Golang
 type User struct {
     name string
     age  int
@@ -196,6 +197,7 @@ type User struct {
 ```
 
 ```python
+# Python
 class User:
   def __init__(self, name, age):
     self.name = name
@@ -221,6 +223,7 @@ class User:
 - copy by value
 
 ```js
+// Javascript
 let x = 10;
 let y = 20;
 let a = x;
@@ -244,6 +247,7 @@ console.log(x, a, y, b);
 - Copy by reference
 
 ```js
+// Javascript
 let user = { firstName: "Ryan", lastName: "Max" };
 let admin = user;
 admin.firstName = "Matt";
@@ -261,6 +265,7 @@ stateDiagram
 - solution is to make a copy
 
 ```js
+// Javascript
 let user = { firstName: "Ryan", lastName: "Max" };
 let admin = { ...user };
 admin.firstName = "Matt";
@@ -281,18 +286,21 @@ console.log(admin, user);
 - Python - Comprehensions
 
 ```python
+# python
 squares = [i * i for i in range(11)]
 ```
 
 ```python
+# python
 squares = []
 for i in range(11):
-  squares.append(i * 1)
+  squares.append(i * i)
 ```
 
 - Rust - Pattern Matching
 
 ```rust
+// rust
 let x = 1;
 let message = match x {
     0 | 1 => "not many",  // check if matches either to 0 or 1
@@ -333,7 +341,7 @@ let message = match x {
 
 - Looking up other people's solution to the same problems
 
-- Stay up to date on updates in the language. Check Github issues to see proposals, check blogs/videos for update in the language
+- Stay up to date with the changes in the language. Check Github issues to see proposals, check blogs/videos for update in the language
 
 - Don’t be satisfied with the first solution that works? Ask yourself how to improve the solutions you come up with or use google
 
@@ -347,24 +355,25 @@ let message = match x {
 
 ---
 
-# Resources
+# References & Resources
 
-- [programiz](https://www.programiz.com/)
+- [Codecademy](https://www.codecademy.com/resources/blog/when-to-learn-new-programming-language/)
+- [Programiz](https://www.programiz.com)
 - [How To Learn A New Programming Language](https://www.youtube.com/watch?v=E8cM12jRH7k&ab_channel=ThePrimeagen)
 - [App ideas](https://github.com/florinpop17/app-ideas)
-
----
-
-<h1 class="text-[45px]! leading-[3.5rem]! text-center ">Connect with me</h1>
-<div class="flex items-center justify-center h-[60%] pt-[40px]">
-   <img src="/img/qrcode.png"  style="width: 200px;" />
-</div>
 
 ---
 
 <h1 class="text-[45px]! leading-[3.5rem]! text-center ">Questions?</h1>
 <div class="flex items-center justify-center h-[60%] pt-[40px]">
    <img src="/img/questions.gif"  style="width: 500px;" />
+</div>
+
+---
+
+<h1 class="text-[45px]! leading-[3.5rem]! text-center ">Connect with me</h1>
+<div class="flex items-center justify-center h-[60%] pt-[40px]">
+   <img src="/img/qrcode.png"  style="width: 200px;" />
 </div>
 
 <div>
