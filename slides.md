@@ -36,7 +36,8 @@ fonts:
 
 <div class="absolute bottom-5">
   <span class="font-400 text-neutral-500">
-    <span class="font-600 text-green-600">By Ahmed Adebisi</span>
+    <span class="font-600 text-green-600 mr-2">By Ahmed Adebisi</span> 
+    <a href="https://www.entrylevel.net/events/learn-programming-as-a-beginner" >@[Entry Level]</a>
   </span>
   <div class="italic text-xs">1st October 2023</div>
 </div>
