@@ -355,6 +355,13 @@ let message = match x {
 
 ---
 
+<h1 class="text-[45px]! leading-[3.5rem]! text-center ">Connect with me</h1>
+<div class="flex items-center justify-center h-[60%] pt-[40px]">
+   <img src="/img/qrcode.png"  style="width: 200px;" />
+</div>
+
+---
+
 <h1 class="text-[45px]! leading-[3.5rem]! text-center ">Questions?</h1>
 <div class="flex items-center justify-center h-[60%] pt-[40px]">
    <img src="/img/questions.gif"  style="width: 500px;" />
